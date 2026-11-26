@@ -2,8 +2,7 @@ from urllib import request
 import json
 
 url = (
-    "http://localhost:3000"
-    "/Curso_de_Python/16-JSON/retornararticulos.php"
+    "http://localhost:3000/16-JSON/retornararticulos.php"
 )
 
 with request.urlopen(url, timeout=10) as pagina:
